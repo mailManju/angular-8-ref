@@ -6,6 +6,9 @@
 
 ###### The source map explorer determines which file each byte in your minified code came from. It shows you a treemap visualization to help you debug where all the code is coming from. Check out this Chrome Developer video (3:25) for a demo of the tool in action.
 
+> [LINK : source-map-explorer](https://www.npmjs.com/package/source-map-explorer)
+
+
 >  npm install -g source-map-explorer
 
 >  ng build --prod --source-map
