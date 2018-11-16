@@ -31,3 +31,6 @@
 ##### Angular recently announced a new render engine called Ivy.
 
 ##### Angular view engine takes the templates and components we’ve written and translates them into regular HTML and JavaScript that the browser can read and display.
+#### Ivy is the next generation of Angular Renderer. It is third in line after the original compiler (for Angular 2) and Renderer2 (for Angular 4 and above). Misko Hevery and Kara Erickson gave us the first look of Ivy in ngConf-2018.
+
+[Source](https://blog.imaginea.com/ivy-a-look-at-the-new-render-engine-for-angular/)
