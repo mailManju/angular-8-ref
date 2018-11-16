@@ -28,7 +28,8 @@
 ## angular CDK
 
 # Angular 7 release update :
-##### Angular recently announced a new render engine called Ivy.
+[Source] (https://blog.ninja-squad.com/2018/10/18/what-is-new-angular-7/)
+## 1.  Angular recently announced a new render engine called Ivy.
 
 ##### Angular view engine takes the templates and components we’ve written and translates them into regular HTML and JavaScript that the browser can read and display.
 #### Ivy is the next generation of Angular Renderer. It is third in line after the original compiler (for Angular 2) and Renderer2 (for Angular 4 and above). Misko Hevery and Kara Erickson gave us the first look of Ivy in ngConf-2018.
@@ -36,3 +37,10 @@
 [Source 1] (https://blog.imaginea.com/ivy-a-look-at-the-new-render-engine-for-angular/)
 
 [Source 2] (https://herringtondarkholme.github.io/2018/02/19/angular-ivy/)
+
+## 2.  Slots with Angular Elements
+
+##### It is possible to use ViewEncapsulation.ShadowDom since Angular 6.1, which is great for Angular Elements (Angular components packaged as Web components that you can use alone). But there was a missing feature to be able to use <slot>, a new standard HTML element, introduced by the Web Component specification. This feature is now available, enabling components with a template like:
+
+
+
